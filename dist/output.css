@@ -199,8 +199,7 @@
     min-width: 50%;
     text-align: left;
     font-weight: bold;
-    vertical-align: top;
-    margin-right: 0px;
+    padding-right: 27%;
   }
 }
 
@@ -754,8 +753,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   table-layout: fixed;
 }
 
-.list-inside {
-  list-style-position: inside;
+.list-outside {
+  list-style-position: outside;
 }
 
 .list-decimal {
