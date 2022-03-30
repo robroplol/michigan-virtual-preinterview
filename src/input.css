@@ -8,10 +8,9 @@
   table td {
     display: flex;
     justify-content: space-between;
-    min-width: 50%;
+    min-width: 100%;
     text-align: right;
     align-items: flex-start;
-    margin-bottom: -4px;
   }
   table tr {
     border: solid 2px #093c44;
@@ -21,10 +20,10 @@
   table td::before {
     content: attr(data-label);
     font-weight: bold;
-    min-width: 50%;
+    min-width: 30%;
     text-align: left;
     font-weight: bold;
-    margin-bottom: 0;
+    vertical-align: top;
   }
 }
 
