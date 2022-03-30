@@ -6,15 +6,17 @@
     <link rel="stylesheet" href="dist/output.css" />
   </head>
   <body class="font-body w-full overflow-x-hidden">
-    <header class="flex justify-center bg-teal-700 py-24 px-12">
+    <header class="flex justify-center bg-deep-teal py-24 px-12">
       <div class="container mx-auto">
         <h1
-          class="text-7xl text-white text-center md:text-left font-body font-extrabold mb-4 md:w-2/3"
+          class="text-5xl md:text-7xl text-white text-center md:text-left font-body font-extrabold mb-4 md:w-2/3"
         >
           Reaching Your Potential through Self-Advocacy
         </h1>
-        <hr class="border-4 border-green-500 w-20 mb-4 mx-auto md:mx-0" />
-        <p class="text-xl text-white font-body font-extralight md:w-1/2">
+        <hr class="border-4 border-green w-20 mb-4 mx-auto md:mx-0" />
+        <p
+          class="text-xl text-white text-center md:text-left font-body font-extralight md:w-1/2"
+        >
           Welcome to Reaching Your Potential through Self-Advocacy! In this
           course, you will understand how self-advocacy increases your
           self-awareness and learn strategies to build this skill for yourself
@@ -24,10 +26,15 @@
     </header>
     <main>
       <div class="container mx-auto">
-        <div class="grid grid-cols-2 gap-10">
-          <div>
-            <h2>About This Course</h2>
-            <p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 py-12">
+          <div class="p-6">
+            <h2
+              class="text-4xl font-bold text-deep-teal tracking-tighter uppercase mb-4"
+            >
+              About This Course
+            </h2>
+            <hr class="border-4 border-green w-20 mb-6 md:mx-0" />
+            <p class="text-dark-gray">
               Advocating for one's self is no simple task. It is a life skill
               that needs support and practice. From an early age, we are faced
               with challenges that only we can solve. Developing and nurturing
@@ -38,18 +45,23 @@
               students.
             </p>
           </div>
-          <div>
-            <h4>Course Format</h4>
-            <p>
+          <div class="p-6 bg-light-teal">
+            <h4
+              class="text-3xl text-white font-bold tracking-tighter uppercase mb-4"
+            >
+              Course Format
+            </h4>
+            <p class="text-white mb-2">
               The content of this course is centered on a three-part process of
               building self-advocacy:
             </p>
-            <div>
-              <p>1. Understanding one's needs</p>
-              <p>2. Knowing what supports might help</p>
-              <p>3. Communicating those needs with others</p>
-            </div>
-            <p>
+            <ol class="list-decimal pl-8 text-white mb-2">
+              <li>Understanding one's needs</li>
+              <li>Knowing what supports might help</li>
+              <li>Communicating those needs with others</li>
+            </ol>
+
+            <p class="text-white">
               While you learn more about each part of the process, you'll have
               the opportunity to explore strategies to implement and practice.
               You'll also be invited to reflect on a current challenge to
@@ -58,22 +70,36 @@
             </p>
           </div>
         </div>
-        <div>
-          <h2>Module: Maslow's Hierarchy of Needs</h2>
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-y-5 gap-x-10">
-            <div>
+        <div class="md:p-8">
+          <h2
+            class="text-center text-4xl text-deep-teal tracking-tighter font-bold uppercase"
+          >
+            Module: Maslow's Hierarchy of Needs
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-y-5 gap-x-8 p-4">
+            <div class="h-full">
               <img src="images/1.png" class="w-full rounded-t" />
-              <div class="p-4 border-x-2 border-b-2 border-gray-300 rounded-b">
-                <h5>Self-Transcendence</h5>
-                <p>The discovery of one's sense of meaning.</p>
+              <div
+                class="p-6 rounded-b border-x-2 border-b-2 border-light-gray"
+              >
+                <h5 class="text-xl text-light-teal font-bold mb-2">
+                  Self-Transcendence
+                </h5>
+                <p class="text-dark-gray text-md">
+                  The discovery of one's sense of meaning.
+                </p>
               </div>
             </div>
             <div>
               <div></div>
               <img src="images/2.png" class="w-full rounded-t" />
-              <div class="p-4 border-x-2 border-b-2 border-gray-300 rounded-b">
-                <h5>Self-Actualization</h5>
-                <p>
+              <div
+                class="p-6 border-x-2 border-b-2 border-light-gray rounded-b"
+              >
+                <h5 class="text-xl text-light-teal font-bold mb-2">
+                  Self-Actualization
+                </h5>
+                <p class="text-dark-gray">
                   Use of talents, development of abilities, and achieving one's
                   potential.
                 </p>
@@ -81,18 +107,24 @@
             </div>
             <div>
               <img src="images/3.png" class="w-full rounded-t" />
-              <div class="p-4 border-x-2 border-b-2 border-gray-300 rounded-b">
-                <h5>Esteem</h5>
-                <p>Recognition, attention, and feeling of accomplishment.</p>
+              <div
+                class="p-6 border-x-2 border-b-2 border-light-gray rounded-b"
+              >
+                <h5 class="text-xl text-light-teal font-bold mb-2">Esteem</h5>
+                <p class="text-dark-gray">
+                  Recognition, attention, and feeling of accomplishment.
+                </p>
               </div>
             </div>
             <div>
               <div>
                 <img src="images/4.png" class="w-full rounded-t" />
               </div>
-              <div class="p-4 border-x-2 border-b-2 border-gray-300 rounded-b">
-                <h5>Social Belonging</h5>
-                <p>
+              <div class="p-6 border-x-2 border-b-2 border-gray-300 rounded-b">
+                <h5 class="text-xl text-light-teal font-bold mb-2">
+                  Social Belonging
+                </h5>
+                <p class="text-dark-gray">
                   Family, companionship, and sense of belonging or connection to
                   others.
                 </p>
@@ -102,9 +134,11 @@
               <div>
                 <img src="images/5.png" class="w-full rounded-t" />
               </div>
-              <div class="p-4 border-x-2 border-b-2 border-gray-300 rounded-b">
-                <h5>Safety Needs</h5>
-                <p>
+              <div class="p-6 border-x-2 border-b-2 border-gray-300 rounded-b">
+                <h5 class="text-xl text-light-teal font-bold mb-2">
+                  Safety Needs
+                </h5>
+                <p class="text-dark-gray">
                   Personal security, emotional security, and financial security.
                 </p>
               </div>
@@ -113,54 +147,72 @@
               <div>
                 <img src="images/6.png" />
               </div>
-              <div class="p-4 border-x-2 border-b-2 border-gray-300 rounded-b">
-                <h5>Physiological Needs</h5>
-                <p>Shelter, food, water, sleep, clothes, exercise, etc.</p>
+              <div class="p-6 border-x-2 border-b-2 border-gray-300 rounded-b">
+                <h5 class="text-xl text-light-teal font-bold mb-2">
+                  Physiological Needs
+                </h5>
+                <p class="text-dark-gray">
+                  Shelter, food, water, sleep, clothes, exercise, etc.
+                </p>
               </div>
             </div>
           </div>
         </div>
-        <div class="flex justify-center">
-          <table class="table-fixed">
-            <caption>
+        <div class="flex justify-center py-12 px-8">
+          <table class="table-fixed border-2 border-deep-teal">
+            <caption class="text-2xl text-dark-teal font-bold mb-2">
               Maslow's Hierarchy of Needs
             </caption>
-            <tr class="bg-gray-300">
+            <thead class="bg-deep-teal text-white font-bold">
               <td class="p-2">Self-Actualization</td>
               <td class="p-2">Esteem</td>
               <td class="p-2">Social Belonging</td>
               <td class="p-2">Safety Needs</td>
               <td class="p-2">Physiological Needs</td>
-            </tr>
+            </thead>
             <tr>
-              <td class="p-2">Use of Talents</td>
-              <td class="p-2">Recognition</td>
-              <td class="p-2">Family</td>
-              <td class="p-2">Personal Security</td>
-              <td class="p-2">Food & Water</td>
+              <td class="p-2" data-label="Self-Actualization">
+                Use of Talents
+              </td>
+              <td class="p-2" data-label="Esteem">Recognition</td>
+              <td class="p-2" data-label="Social Belonging">Family</td>
+              <td class="p-2" data-label="Safety Needs">Personal Security</td>
+              <td class="p-2" data-label="Physiological Needs">Food & Water</td>
             </tr>
             <tr class="">
-              <td class="p-2">Development of Abilities</td>
-              <td class="p-2">Attention</td>
-              <td class="p-2">Companionship</td>
-              <td class="p-2">Emotional Security</td>
-              <td class="p-2">Sleep & Exercise</td>
+              <td class="p-2" data-label="Self-Actualization">
+                Development of Abilities
+              </td>
+              <td class="p-2" data-label="Esteem">Attention</td>
+              <td class="p-2" data-label="Social Belonging">Companionship</td>
+              <td class="p-2" data-label="Safety Needs">Emotional Security</td>
+              <td class="p-2" data-label="Physiological Needs">
+                Sleep & Exercise
+              </td>
             </tr>
             <tr>
-              <td class="p-2">Achieving One's Potential</td>
-              <td class="p-2">Feeling of Accomplishment</td>
-              <td class="p-2">Belonging + Connection</td>
-              <td class="p-2">Financial Security</td>
-              <td class="p-2">Clothes & Shelter</td>
+              <td class="p-2" data-label="Self-Actualization">
+                Achieving One's Potential
+              </td>
+              <td class="p-2" data-label="Esteem">Feeling of Accomplishment</td>
+              <td class="p-2" data-label="Social Belonging">
+                Belonging + Connection
+              </td>
+              <td class="p-2" data-label="Safety Needs">Financial Security</td>
+              <td class="p-2" data-label="Physiological Needs">
+                Clothes & Shelter
+              </td>
             </tr>
           </table>
         </div>
       </div>
     </main>
 
-    <footer>
-      <a href="#">&larr; Previous Module</a>
-      <a href="#">Next Module &rarr;</a>
+    <footer class="flex justify-evenly py-6 bg-light-teal">
+      <a href="#" class="text-white font-bold underline hover:font-normal"
+        >&larr; Previous Module</a
+      >
+      <a href="#" class="text-white font-bold underline">Next Module &rarr;</a>
     </footer>
   </body>
 </html>

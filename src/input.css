@@ -1,6 +1,33 @@
 @import url("http://fonts.cdnfonts.com/css/gotham");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
+@media screen and (max-width: 767px) {
+  table thead {
+    display: none;
+  }
+  table td {
+    display: flex;
+    justify-content: space-between;
+    min-width: 50%;
+    text-align: right;
+    align-items: flex-start;
+    margin-bottom: -4px;
+  }
+  table tr {
+    border: solid 2px #093c44;
+    margin: 20px;
+  }
+
+  table td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    min-width: 50%;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
