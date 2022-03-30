@@ -115,10 +115,11 @@
   table td::before {
     content: attr(data-label);
     font-weight: bold;
-    min-width: 30%;
+    min-width: 50%;
     text-align: left;
     font-weight: bold;
     vertical-align: top;
+    margin-right: 0px;
   }
 }
 
