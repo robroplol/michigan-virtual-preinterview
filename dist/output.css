@@ -550,6 +550,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0.5rem;
 }
 
+.mb-8{
+  margin-bottom: 2rem;
+}
+
 .flex{
   display: flex;
 }
@@ -560,6 +564,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .grid{
   display: grid;
+}
+
+.h-fit{
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.min-h-full{
+  min-height: 100%;
 }
 
 .w-full{
@@ -620,6 +634,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   overflow-x: hidden;
 }
 
+.rounded{
+  border-radius: 0.25rem;
+}
+
 .rounded-t{
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
@@ -670,6 +688,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-deep-teal{
   --tw-bg-opacity: 1;
   background-color: rgb(9 60 68 / var(--tw-bg-opacity));
+}
+
+.bg-light-gray{
+  --tw-bg-opacity: 1;
+  background-color: rgb(109 110 113 / var(--tw-bg-opacity));
 }
 
 .p-6{
@@ -797,6 +820,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(17 94 110 / var(--tw-text-opacity));
 }
 
+.shadow{
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .hover\:underline:hover{
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
@@ -839,6 +868,21 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 3rem;
   }
 
+  .md\:px-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .md\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .md\:px-1{
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
   .md\:text-left{
     text-align: left;
   }
@@ -850,6 +894,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 1024px){
+  .lg\:w-2\/3{
+    width: 66.666667%;
+  }
+
+  .lg\:w-1\/2{
+    width: 50%;
+  }
+
   .lg\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
